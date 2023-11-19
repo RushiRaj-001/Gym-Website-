@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>services</title>
+    <style>
+        .services{
+    min-height: 100vh;
+    text-align: center;
+    padding: 2% 6%;
+
+}
+
+.services h1 {
+    font-size: 3.8rem;
+    padding: 0,5rem;
+    display: inline-block;
+    color: yellowgreen;
+    border-bottom: 0.2rem solid yellowgreen;
+    margin-bottom: 1.8rem;
+}
+
+.services .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.services .container .box {
+    width: 31rem;
+    height: 25rem;
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+.services .container .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.services .container .box .info{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-30%) scale(0) ;
+   transform-origin: bottom;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0,0,0,0.7);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.btn{
+    background-color: red;}
+
+.services .container .box:hover .info{
+    transform: translate(-50%, -30%) scale(1);
+}
+.services .container .box .info  h3 {
+  font-size: 3rem;
+  color: yellowgreen;
+  margin-bottom: 1.2rem;
+}
+
+.services .container .box .info p{
+    line-height: 2;
+    color: #fff;
+    font-size: 1.0rem;
+    padding: 0 1rem;
+    margin-bottom: 1.2rem;
+}
+
+#services{
+    padding: 50px 0px;
+}
+
+.services-info{
+    text-align: center;
+
+}
+.services-info h1 {
+    font-size: 50px;
+}
+
+.services-info p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.services-row{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-auto-flow: minmax(150px,auto);
+    grid-gap: 3em;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.services-box{
+    box-shadow: 2px 3px 5px yellow;
+    padding: 10px;
+    text-align: center;
+}
+.services-box i{
+    background-color: #0984e3;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: -20px;
+}
+    </style>
+</head>
+<body>
+    <section class="services">
+        <h1> Our Services </h1>
+        <div class="container">
+        <div class="box">
+            <img src="./assets/trademill.jpg">
+            <div class="info">
+            <h3> Treadmill</h3>
+            <p> Reduced Impact. A treadmill reduces impact better than the street or other outdoor surfaces when it comes to running.
+              Reduced Impact. A treadmill reduces impact better than the street or other outdoor surfaces when it comes to running
+              Mental Health and Motivation.Heart Health.
+              Weight Loss. Muscle Building.
+               </p>
+               <a href="8_Bicep_Exercise.mp4 "></a> <button class="btn"> More </button>
+              
+            
+              </div>
+        </div>
+        <div class="box">
+            <img src="./assets/yoga.jpg">
+            <div class="info">
+            <h3>yoga</h3>
+            <p> That way, yoga can support the healing process and help the person experience symptoms with more centeredness and less distress.
+              Yoga improves strength, balance and flexibility.
+              Yoga helps with back pain relief. 
+              Yoga can ease arthritis symptoms. 
+              Yoga benefits heart health. 
+              Yoga relaxes you, to help you sleep better. </p>
+              <a href=""></a> <button class="btn"> More </button>
+           
+              </div>
+        </div>
+        <div class="box">
+            <img src="./assets/dd.jpg" alt="">
+            <div class="info">
+            <h3>equipments</h3>
+            <p> Treadmill.
+              Elliptical Machine.
+              Indoor Exercise Spin Bike.
+              Mini Exercise Bike.
+              Under Desk / Mini Elliptical Machine.
+              Rowing Machine.
+              Recumbent Exercise Bike.
+              Vertical Climber.  </p>
+              <a href="" > <button class="btn"> More </button></a>
+              </div>
+        </div>
+        <div class="box">
+            <img src="./assets/best-bicep.jpg".jpg" alt="">
+            <div class="info">
+            <h3>Bicep</h3>
+            <p> Bicep stretches are a great way to complement your upper-body workout. These stretches can increase flexibility and range of motion, allowing you to move deeper and further with greater ease. Plus, they help to relieve muscle tightness and tension, which is beneficial in preventing injury and improving performance. </p>
+           <a href="8_Bicep_Exercises_for_Bigger_Arms_-Gym_Body_Motivation(720p).mp4"> <video src="8_Bicep_Exercises_for_Bigger_Arms-_Gym_Body_Motivation(720p).mp4"></video></a> <button class="btn"> More </button>
+            
+              </div>
+        </div>
+        <div class="box">
+            <img src="./assets/back.jpg" alt="">
+            <div class="info">
+            <h3>back  </h3>
+            <p> Reducing tension in muscles supporting the spine; tension in these muscles can worsen pain from any number of back pain conditions.
+              Improving range of motion and overall mobility.
+              Reducing risk of disability caused by back pain.
+               </p>
+               <a href=""></a> <button class="btn"> More </button>
+              </div>
+        </div>
+        <div class="box">
+            <img src="./assets/weight.jpg" alt="">
+            <div class="info">
+            <h3> weight lifting</h3>
+            <p>Makes you stronger.
+              Burns calories efficiently.
+              Decreases abdominal fat.
+              Can help you appear leaner.
+              Decreases your risk of falls.
+              Lowers your risk of injury.
+              Improves heart health.
+              Helps manage your blood sugar levels </p>
+              <a href=""></a> <button class="btn"> More </button>
+              
+              </div>
+        </div>
+     
+         
+    </div>
+    </section>
+</body>
+</html>
